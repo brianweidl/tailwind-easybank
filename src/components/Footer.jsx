@@ -1,11 +1,11 @@
 import React from 'react';
 import RequestButton from './RequestButton';
 
-import fbLogo from '../../public/images/icon-facebook.svg';
-import ytLogo from '../../public/images/icon-youtube.svg';
-import twLogo from '../../public/images/icon-twitter.svg';
-import piLogo from '../../public/images/icon-pinterest.svg';
-import igLogo from '../../public/images/icon-instagram.svg';
+import fbLogo from '..//images/icon-facebook.svg';
+import ytLogo from '..//images/icon-youtube.svg';
+import twLogo from '..//images/icon-twitter.svg';
+import piLogo from '..//images/icon-pinterest.svg';
+import igLogo from '..//images/icon-instagram.svg';
 
 function Footer() {
 	return (

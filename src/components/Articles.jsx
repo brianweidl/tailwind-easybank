@@ -2,10 +2,10 @@ import React from 'react';
 
 import Article from './Article';
 
-import image1 from '../../public/images/image-currency.jpg';
-import image2 from '../../public/images/image-restaurant.jpg';
-import image3 from '../../public/images/image-plane.jpg';
-import image4 from '../../public/images/image-confetti.jpg';
+import image1 from '../images/image-currency.jpg';
+import image2 from '..//images/image-restaurant.jpg';
+import image3 from '..//images/image-plane.jpg';
+import image4 from '..//images/image-confetti.jpg';
 
 const articles = [
 	{

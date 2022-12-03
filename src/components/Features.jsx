@@ -1,9 +1,9 @@
 import React from 'react';
 import Feature from './Feature';
-import icon1 from '../../public/images/icon-online.svg';
-import icon2 from '../../public/images/icon-budgeting.svg';
-import icon3 from '../../public/images/icon-onboarding.svg';
-import icon4 from '../../public/images/icon-api.svg';
+import icon1 from '..//images/icon-online.svg';
+import icon2 from '..//images/icon-budgeting.svg';
+import icon3 from '..//images/icon-onboarding.svg';
+import icon4 from '..//images/icon-api.svg';
 
 const features = [
 	{ title: 'Online Banking', text: 'Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world', icon: icon1 },

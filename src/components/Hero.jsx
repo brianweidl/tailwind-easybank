@@ -1,25 +1,12 @@
 import React from 'react';
-import mockUps from '../../public/images/image-mockups.png';
+import mockUps from '..//images/image-mockups.png';
 import RequestButton from './RequestButton';
-import { useState, useEffect } from 'react';
 
 function Hero() {
-	const [windowWidth, setWindowWidth] = useState(1366);
-
-	useEffect(() => {
-		function handleResize() {
-			setWindowWidth(window.innerWidth);
-		}
-
-		window.addEventListener('resize', handleResize);
-		handleResize();
-
-		return () => window.removeEventListener('resize', handleResize);
-	}, []);
 	return (
 		<section className="relative z-0  flex flex-col items-center justify-center pb-9">
 			<div className="flex justify-center ">
-				<svg className="absolute " xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width={windowWidth} height="423">
+				<svg className="absolute " xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="430" height="423">
 					<defs>
 						<linearGradient id="c" x1="0%" x2="99.58%" y1="36.139%" y2="63.745%">
 							<stop offset="0%" stop-color="#33D35E" />
