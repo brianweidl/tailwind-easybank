@@ -7,7 +7,7 @@ function Hero() {
 		<>
 			<section className=" z-0  flex flex-col items-center justify-center pb-9 md:flex-row-reverse md:justify-between md:container md:mx-auto ">
 				<div className="hidden md:block w-96 h-[650px]"></div>
-				<div className="background flex justify-center md:absolute md:-top-24 ">
+				<div className="background  flex justify-center md:absolute md:-top-24 ">
 					<img src={mockUps} className="relative -top-24  md:top-32 md:left-32"></img>
 				</div>
 				<div className="px-4 pt-0 pb-12 flex flex-col  items-center md:items-start md:w-[38%] md:ml-16 md:px-0">
