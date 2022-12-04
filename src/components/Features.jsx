@@ -14,7 +14,7 @@ const features = [
 
 function Features() {
 	return (
-		<section className=" flex flex-col items-center justify-center space-y-16 bg-lightGrayishBlue mt-16 py-12 px-4 text-center ">
+		<section className=" flex flex-col items-center justify-center space-y-16 bg-lightGrayishBlue mt-16 py-12 px-4 text-center md:mt-0 ">
 			<article>
 				<h3 className="text-3xl px-16"> Why choose Easybank?</h3>
 				<p className="my-4 text-grayishBlue">We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>

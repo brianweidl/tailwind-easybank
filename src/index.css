@@ -9,3 +9,15 @@
 body {
 	overflow-x: hidden;
 }
+
+.background {
+	background-image: url('./images/bg-intro-mobile.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@media (min-width: 1440px) {
+	.background {
+		background-image: url('./images/bg-intro-desktop.svg');
+		background-size: 100% 100%;
+	}
+}
