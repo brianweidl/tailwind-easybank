@@ -37,7 +37,7 @@ const articles = [
 function Articles() {
 	return (
 		<section className="flex flex-col bg-veryLightGray items-center justify-center py-16 px-6">
-			<h3 className="text-3xl px-16 pb-6"> Latest Articles</h3>
+			<h3 className="text-3xl px-8 pb-6"> Latest Articles</h3>
 			{articles.map((article) => (
 				<Article key={article.title} {...article} />
 			))}
