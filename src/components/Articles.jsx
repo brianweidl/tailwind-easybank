@@ -36,12 +36,14 @@ const articles = [
 
 function Articles() {
 	return (
-		<section className="flex flex-col bg-veryLightGray items-center justify-center py-16 px-6 md:items-start md:px-16">
-			<h3 className="text-3xl px-8 pb-6 md:px-0"> Latest Articles</h3>
-			<div className="flex flex-col md:flex-row md:space-x-8">
-				{articles.map((article) => (
-					<Article key={article.title} {...article} />
-				))}
+		<section className=" bg-veryLightGray  ">
+			<div className=" flex flex-col items-center justify-center py-16 px-6 md:container md:mx-auto md:items-start md:px-16">
+				<h3 className="text-3xl px-8 pb-6 md:px-0"> Latest Articles</h3>
+				<div className="flex flex-col md:flex-row  md:space-x-8">
+					{articles.map((article) => (
+						<Article key={article.title} {...article} />
+					))}
+				</div>
 			</div>
 		</section>
 	);

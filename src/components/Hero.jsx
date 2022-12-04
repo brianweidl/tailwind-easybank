@@ -12,7 +12,7 @@ function Hero() {
 				</div>
 				<div className="px-4 pt-0 pb-12 flex flex-col  items-center md:items-start md:w-[38%] md:ml-16 md:px-0">
 					<h1 className="text-center text-4xl text-darkBlue pb-6 font-sans md:text-start md:text-6xl md:pb-9"> Next generation digital banking</h1>
-					<p className="text-center text-grayishBlue text-sm px-3 mb-9 md:text-start md:text-xl">
+					<p className="text-center text-grayishBlue text-sm px-3 mb-9 md:text-start md:text-xl md:px-0">
 						{' '}
 						Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.
 					</p>

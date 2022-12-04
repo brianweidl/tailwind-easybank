@@ -14,15 +14,17 @@ const features = [
 
 function Features() {
 	return (
-		<section className=" flex flex-col items-center justify-center space-y-16 bg-lightGrayishBlue mt-16 py-12 px-4 text-center md:mt-0 md:text-start md:items-start md:px-16 md:py-24">
-			<article className="md:w-[45%]">
-				<h3 className="text-3xl px-16 md:px-0 md:text-4xl"> Why choose Easybank?</h3>
-				<p className="my-4 text-grayishBlue">We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
-			</article>
-			<div className="flex flex-col space-y-10 md:flex-row md:space-y-0 md:space-x-9 ">
-				{features.map((feature) => (
-					<Feature key={feature.title} {...feature} />
-				))}
+		<section className="  bg-lightGrayishBlue ">
+			<div className=" flex flex-col items-center justify-center space-y-16 mt-16 py-12 px-4 text-center md:container md:mx-auto md:mt-0 md:text-start md:items-start md:px-16 md:py-24">
+				<article className="md:w-[45%]">
+					<h3 className="text-3xl px-16 md:px-0 md:text-4xl"> Why choose Easybank?</h3>
+					<p className="my-4 text-grayishBlue">We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
+				</article>
+				<div className="flex flex-col space-y-10 md:flex-row md:space-y-0 md:space-x-9 ">
+					{features.map((feature) => (
+						<Feature key={feature.title} {...feature} />
+					))}
+				</div>
 			</div>
 		</section>
 	);
