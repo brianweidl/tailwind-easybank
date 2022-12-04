@@ -85,14 +85,32 @@ function Footer() {
 						</div>
 						<div className="flex justify-between items-center w-72 mr-8  text-white ">
 							<div className="flex flex-col space-y-3">
-								<a href=""> About Us</a>
-								<a href=""> Contact</a>
-								<a href=""> Blog</a>
+								<a href="" className="hover:text-limeGreen">
+									{' '}
+									About Us
+								</a>
+								<a href="" className="hover:text-limeGreen">
+									{' '}
+									Contact
+								</a>
+								<a href="" className="hover:text-limeGreen">
+									{' '}
+									Blog
+								</a>
 							</div>
 							<div className="flex flex-col space-y-3">
-								<a href=""> Careers</a>
-								<a href=""> Support</a>
-								<a href=""> Privacy Policy</a>
+								<a href="" className="hover:text-limeGreen">
+									{' '}
+									Careers
+								</a>
+								<a href="" className="hover:text-limeGreen">
+									{' '}
+									Support
+								</a>
+								<a href="" className="hover:text-limeGreen">
+									{' '}
+									Privacy Policy
+								</a>
 							</div>
 						</div>
 						<div className="flex flex-col items-end space-y-6">

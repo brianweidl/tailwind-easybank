@@ -15,6 +15,27 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.headerLink {
+	margin: 0;
+	position: relative;
+	padding-bottom: 20px;
+	border-bottom: 4px solid transparent;
+}
+
+.headerLink:hover {
+	color: hsl(233, 26%, 24%);
+	border-bottom: 4px solid hsl(136, 65%, 51%);
+}
+/* .headerLink:hover::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	width: 50px;
+	height: 2px;
+	background-color: red;
+} */
 @media (min-width: 1440px) {
 	.background {
 		background-image: url('./images/bg-intro-desktop.svg');

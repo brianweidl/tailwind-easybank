@@ -6,7 +6,7 @@ function Feature({ author, image, text, title }) {
 			<img className="rounded  md:h-60" src={image}></img>
 			<div className="px-4 pb-4">
 				<span className="text-grayishBlue text-xs">By {author}</span>
-				<h4 className="text-xl my-3">{title}</h4>
+				<h4 className="text-xl my-3 hover:text-limeGreen hover:cursor-pointer">{title}</h4>
 				<p className="text-grayishBlue text-sm">{text}</p>
 			</div>
 		</article>
