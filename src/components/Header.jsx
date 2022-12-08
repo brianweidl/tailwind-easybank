@@ -5,7 +5,7 @@ function Header() {
 	return (
 		<div className="relative bg-white shadow-sm z-20">
 			<header className="  bg-white flex justify-between items-center px-8 pt-12 pb-8 font-sans  md:container md:mx-auto md:px-16 md:pb-0">
-				<div className="pb-[20px]">
+				<div className="md:pb-[20px]">
 					<svg xmlns="http://www.w3.org/2000/svg" width="139" height="20">
 						<defs>
 							<linearGradient id="a" x1="72.195%" x2="17.503%" y1="0%" y2="100%">
@@ -34,23 +34,18 @@ function Header() {
 				</svg>
 				<nav className="hidden md:flex space-x-9 items-center text-grayishBlue text-xl">
 					<a href="" className=" headerLink ">
-						{' '}
 						Home
 					</a>
 					<a href="" className=" headerLink ">
-						{' '}
-						About{' '}
+						About
 					</a>
 					<a href="" className=" headerLink ">
-						{' '}
 						Contact
 					</a>
 					<a href="" className=" headerLink ">
-						{' '}
 						Blog
 					</a>
 					<a href="" className=" headerLink ">
-						{' '}
 						Careers
 					</a>
 				</nav>
